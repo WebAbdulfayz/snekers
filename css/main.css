@@ -1,0 +1,256 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1110px;
+    margin: auto;
+}
+
+.nav__container {
+    padding: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E4E9F2;
+}
+
+.cart {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cart-p {
+    width: 150px;
+    height: 60px;
+    background-color: #B6BCC8;
+    border-radius: 10px;
+}
+
+.sym {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 40px;
+    background: #F6F8FD;
+    display: flex;
+    color: #1D2026;
+    border-radius: 10px;
+}
+
+button {
+    margin: 0 5px;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #F6F8FD;
+    border: none;
+    color: #FF7E1B;
+}
+.btn__group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#number {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 32px;
+    margin-top: 5px;
+}
+
+.nav__link {
+    font-family: 'Kumbh_Sans';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 26px;
+    color: #69707D;
+    padding-bottom: 43px;
+}
+
+.nav__logo {
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.nav__item:hover .nav__link {
+    border-bottom: 4px solid #FF7E1B;
+    color: #1D2026;
+}
+
+.avatarka {
+    margin-left: 46px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.avatarka:hover {
+    border: 2px solid #FF7E1B;
+    cursor: pointer;
+}
+
+.header__container {
+    margin-top: 90px;
+    column-gap: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__img1 {
+    margin-bottom: 30px;
+}
+
+.image__group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__text1 {
+    font-family: 'Kumbh_Sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF7E1B;
+}
+
+.menu {
+    transition: .5s;
+    position: absolute;
+    z-index: 99;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: none;
+    background-color: #fff;
+}
+
+.menu:hover {
+    width: 250px;
+    height: 900px;
+    background-color: #FFF;
+}
+
+.all {
+    position: relative;
+}
+
+.menu:hover .all {
+    z-index: 98;
+    background: #0000009a;
+    opacity: 0.75;
+}
+
+.header__title {
+    font-family: 'Kumbh_Sans';
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 48px;
+    color: #1D2026;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.header__text {
+    font-family: 'Kumbh_Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #69707D;
+}
+
+.asd {
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+}
+
+.sale__title {
+    font-family: 'Kumbh_Sans';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #1D2026;
+}
+
+.sale__link {
+    background: #FFEEE2;
+    border-radius: 6px;
+    padding: 8px;
+    font-family: 'Kumbh_Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF7E1B;
+}
+
+.sale__link:hover {
+    color: #ff7E1B;
+}
+
+.sale {
+    font-family: 'Kumbh_Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration-line: line-through;
+    color: #B6BCC8;
+}
+
+.sale:hover {
+    color: #B6BCC8;
+}
+
+.header__button {
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    background: #FF7E1B;
+    box-shadow: 0px 20px 50px -20px #FF7E1B;
+    border-radius: 10px;
+    border: unset;
+    font-family: 'Kumbh_Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 23px 70px;
+    transition: .5s;
+}
+
+.header__button:hover {
+    background: #FFAB6A;
+}
